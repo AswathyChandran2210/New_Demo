@@ -1,8 +1,2 @@
-let cars=["alto","dzire","esspresso"]
-console.log(typeof cars)
-console.log(cars)
 
-
-console.log("Hello-----")
-
-console.log("-------------------------")
+console.log("Added new line of code")

@@ -29,4 +29,22 @@ function Display_Result()
 Display_Result();
 Display_Result=SumResult(10,20);
 console.log("The answer is----",Display_Result)
-
+let firstage=11
+let secondage=12
+console.log("----------------Age---------------")
+if (firstage<18 && secondage<18)
+{
+    console.log("Non eligible for applying the licence")
+    console.log(firstage)
+    console.log(secondage)
+}
+else if(firstage>18 && secondage>18)
+{
+    console.log("Eligible for applying the lisence")
+    console.log(firstage)
+    console.log(secondage)
+}
+else
+{
+    console.log("Eligiblefor apllying licence since age is 18")
+}
